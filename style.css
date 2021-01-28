@@ -2,16 +2,13 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-}
-.sec1{
     background-image: url(https://www.packaginginnovation.com/wp-content/uploads/2017/11/nike-clothing-store.jpg);
-    height:700px;
-}
-.sec1 img{
     background-size: cover;
     background-repeat: no-repeat;
-
+}
+.sec1{
+    
+    height: 700px;
 }
 .sec1 h1{
     color: burlywood;
@@ -46,4 +43,16 @@ body {
 .sec1  h2 ,h3,h4{
     color: aliceblue;
 
+}
+
+.sec2 h1{
+    color: burlywood;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 4px 4px 4px 8px burlywood;
+}
+.sec2 #img{
+    width: 150px;
+    height: 200px;
 }

@@ -51,9 +51,6 @@ result=result+ordered;
 }
 document.write(result);
 
-
-
-
 document.getElementById("choose").innerText=nojack;
 document.getElementById("finish").innerText=jackq;
 confirm("Best Washes");
