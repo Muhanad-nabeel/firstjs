@@ -23,6 +23,36 @@ else{
 
 }
 
+//lab 5
+var type;
+
+while(type !== 'short' && type !=='tall')
+{
+     type=prompt("select your jackets 'short' OR 'tall'");
+
+}
+var ordered='';
+if(type === 'short'){
+
+    ordered='<img src="assets/short.jpg"/>';
+
+}else if(type === 'tall')
+{
+    ordered='<img src="assets/tall1.jpeg"/>';
+
+}
+
+var nojackts=prompt("how many jackets do you want ?");
+var result='';
+for(var i=0;i<nojackts;i++){
+result=result+ordered;
+
+
+}
+document.write(result);
+
+
+
 
 document.getElementById("choose").innerText=nojack;
 document.getElementById("finish").innerText=jackq;
