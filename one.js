@@ -60,11 +60,11 @@ function getUser() {
 
     setName = prompt("Enter Your Name ?");
     console.log(setName);
-    document.getElementById("name").innerText = setName;
 
 }
 getUser();
 
+document.getElementById("name").innerText = setName;
 
 //fun expression  
 var getNum = function (a, b) {
