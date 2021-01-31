@@ -15,7 +15,7 @@ body {
     text-align: center;
     font-size: 60px;
     font-weight: 400;
-    text-shadow: 4px 4px 4px 8px burlywood;
+    text-shadow: 4px 4px 4px 8px rgb(223, 204, 32);
 }
 .sec1 h2{
     text-align: center;
@@ -27,7 +27,7 @@ body {
     border: 1px solid burlywood;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px black;
-    width: 300px;
+    width: 450px;
     height: 200px;
     padding: 10px;
     padding-top:30px;
@@ -38,7 +38,8 @@ body {
 
     font-size: 30px;
     font-weight: 700;
-    text-shadow: 3px 3px 3px 8px burlywood;
+    text-shadow: 3px 3px 3px 8px rgb(222, 184, 135);
+    color: hsl(75, 60%, 120%);
 }
 .sec1  h2 ,h3,h4{
     color: aliceblue;
