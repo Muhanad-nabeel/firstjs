@@ -54,7 +54,7 @@ confirm("Best Washes");
 alert("We Hope To ComeBack Soon ..");
 
 
-//fun decleration 
+//fun deceleration 
 var setName;
 function getUser() {
 

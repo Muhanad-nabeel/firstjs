@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>class 201</title>
+<style>
+    h1{
+        color: crimson;
+    }
+    main{
+        text-align: center;
+    }
+    h1{
+        font-size: 70px;
+    }
+</style>
+</head>
+
+<body>
+<header>
+    <h3>Class 201</h3>
+</header>
+   <main>
+<h1>Class 1 Lab</h1>   
+<hr>
+<p  style="color: darkred; font-size: 25px;">Your Name is : <span id="a1"></span> </p>
+<br>
+<p  style="color: dodgerblue; font-size: 40px;">Your std ID : <span id="a2" ></span> </p>
+<br>
+<p  style="color: green; font-size: 45px;">University Name : <span id="a3"></span></p>
+<br>
+<p  style="color: indianred;font-size: 60px;">Collage Name : <span id="a4"></span> </p>
+
+
+
+</main>
+<footer>
+&copy;Muhanad Abdulwhid
+</footer>
+
+<script>
+    let username =prompt("please enter your name :");
+    alert(username);
+    document.getElementById("a1").innerText=username;
+    
+    let sid=prompt("enter your std ID :");
+    alert(sid);
+    document.getElementById("a2").innerText=sid;
+
+    let uni=prompt("enter your university name :");
+    alert(uni);
+    document.getElementById("a3").innerText=uni;
+
+    let col=prompt("enter your name of collage ");
+    alert(col);
+document.getElementById("a4").innerText=col;
+
+
+</script>
+
+</body>
+</html>
